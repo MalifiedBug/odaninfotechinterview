@@ -1,5 +1,8 @@
 .App {
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
 }
 
 .App-logo {
@@ -35,4 +38,159 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+
+.footer{
+
+  display: flex;
+  border: 2px solid;
+  flex-direction: column;
+
+  position: static;
+  bottom: 0; top:auto; left: 0; right: 0;
+}
+
+.main{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.trend{
+  border: 2px solid;
+  margin: 20px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.title{
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.newsletter{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  background-color: black;
+  color: white;
+}
+
+.newsbutton{
+  background-color: orange;
+}
+
+.brandnewproducts{
+  
+  border: 2px solid;
+  margin: 20px;
+  
+}
+
+.prod1{
+  border: 2px solid;
+  width: 250px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin: 20px;
+}
+
+.nameheart{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.products{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.specialfeatures{
+  border: 2px solid;
+  margin: 20px;
+}
+
+.featuresiconcard{
+  
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+
+}
+
+.iconcard{
+  width: 100px;
+  
+}
+
+.newsfeedcards{
+  margin: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+
+}
+
+.caldate{
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+}
+
+.newsfeedcard{
+  display: flex;
+  border: 3px solid;
+  flex-direction: column;
+  width: 300px;
+  height: 450px;
+  overflow: auto ;
+
+}
+
+.brandnewprodsbutton{
+  background-color: black;
+  color: white;
+}
+
+.footer1 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.footer2 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+
+.carimage{
+  width: 200px;
+  height: 300px;
+}
+
+.prodimage{
+  width: 50px;
+  height: 50px;
 }
